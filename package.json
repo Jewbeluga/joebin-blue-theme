@@ -1,0 +1,40 @@
+{
+  "name": "joebin-blue-theme",
+  "displayName": "Joebin Blue",
+  "description": "A dark VS Code theme with Blue-ish-accented syntax highlighting, optimized for readability and LaTeX work.",
+  "version": "1.0.0",
+  "publisher": "Jewbeluga",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jewbeluga/joebin-blue-theme.git"
+  },
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "blue theme",
+    "latex",
+    "syntax highlighting"
+  ],
+  "files": [
+    "themes/**",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Joebin Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/joebin-blue-theme.json"
+      }
+    ]
+  }
+}
